@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="public/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alien's Eating Ramen </title>
+  </head>
+  <body>
+    <header>
+      <p>Aliens Eating Ramen: Simple Phaser Game #1</p>
+    </header>
+    <main>
+      <canvas id = "gameCanvas"></canvas>
+      <div id="gameStartDiv" class="gameUI">
+        <h3> You're a hungry alien. </h3>
+        <h3> Catch the savory ramen.</h3>
+        <button id ="gameStartButton"><p>Start</p></button>
+      </div>
+    
+      <div id="gameEndDiv" class="gameUI">
+        <p>Game Over</p>
+        <h1> <span id="gameWinLoseSpan"></span></h1>
+        <h1> Final Score: <span id ="gameEndScoreSpan"></span></h1>
+      </div>
+    </main>
+    <footer>
+      <p>Created by J'nae Gibbs</p>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
